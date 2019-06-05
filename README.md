@@ -4,6 +4,9 @@ This database is designed to be used with its associated apex application locate
 
 --- 
 ## TABLE ALIAS LIST: 
+Each table is listed with its releavant alias and the number of characters taken from each word ie (1:1) is 1 letter from word 1 and 1 from word 2 
+
+
 - PRODUCTS = PROD(4)
 - SUPPLIERS = SUPP (4)
 - SUPPLIER_SELLS_PRODUCTS = SSP(1:1:1)
@@ -28,3 +31,8 @@ This database is designed to be used with its associated apex application locate
 - BILLABLES = BILL (4)
 - PART_USED = PRTU(3:1)
 - BILLABLE_HOURS = BHRS (1:3)
+
+
+---
+
+
